@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints if the number is positive, zero, or negative
+ * main - print if the number is positive, zero, or negative
  *
  * Description: using the main function
  * this program prints "Programming is positive, zero, or negative
@@ -8,11 +8,15 @@
  */
 int main(void)
 {
-	char i;
+	char c;
 
-	for (i = 'z' ; i >= 'a' ; i--)
+	for (c = '0' ; c <= '9' ; c++)
 	{
-		putchar(i);
+		putchar(c);
+	}
+	for (c = 'a' ; c <= 'f' ; c++)
+	{
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
